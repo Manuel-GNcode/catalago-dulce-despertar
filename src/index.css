@@ -1,1 +1,22 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("/fonts/Nunito-VariableFont_wght.ttf") format("truetype");
+}
+.icon-header {
+  @apply inline-block size-8 bg-cover;
+}
+
+@theme {
+  --font-catalogo-nunito: 'Nunito', "sans-serif";
+
+  --color-soft-blue-green: hsl(140.909, 100%, 87%);
+  --color-intense-rose: hsl(323, 100%, 77%);
+  --color-dark-purple: hsl(242.069, 40%, 14%);
+  --color-grayish-blue: hsl(160, 20%, 85%);
+  --color-soft-purple: hsl(253.529, 100%, 80%);
+}
