@@ -7,16 +7,28 @@
   font-display: swap;
   src: url("/fonts/Nunito-VariableFont_wght.ttf") format("truetype");
 }
-.icon-header {
-  @apply inline-block size-8 bg-cover;
-}
 
 @theme {
   --font-catalogo-nunito: 'Nunito', "sans-serif";
-
+  
   --color-soft-blue-green: hsl(140.909, 100%, 87%);
   --color-intense-rose: hsl(323, 100%, 77%);
   --color-dark-purple: hsl(242.069, 40%, 14%);
   --color-grayish-blue: hsl(160, 20%, 85%);
   --color-soft-purple: hsl(253.529, 100%, 80%);
+}
+
+/* margin responsive */
+.margin-responsive {
+  @apply sm:mx-10 md:mx-20 lg:mx-30;
+}
+
+/* Header class */
+.icon-header {
+  @apply block size-8 bg-cover;
+}
+
+/* Banner class */
+.btn-banner {
+  @apply absolute left-1/2 -translate-x-1/2 bottom-8 text-2xl font-bold bg-dark-purple text-soft-blue-green whitespace-nowrap py-1 px-6 rounded-3xl border-4 border-dark-purple cursor-pointer hover:bg-soft-blue-green hover:text-dark-purple sm:text-3xl;
 }
