@@ -32,3 +32,11 @@
 .btn-banner {
   @apply absolute left-1/2 -translate-x-1/2 bottom-8 text-2xl font-bold bg-dark-purple text-soft-blue-green whitespace-nowrap py-1 px-6 rounded-3xl border-4 border-dark-purple cursor-pointer hover:bg-soft-blue-green hover:text-dark-purple sm:text-3xl;
 }
+
+/* Main class */
+.category-button {
+  @apply bg-dark-purple text-white font-bold px-4 py-1 rounded-2xl border-3 border-dark-purple cursor-pointer;
+}
+.active {
+  @apply bg-soft-blue-green text-dark-purple;
+}
