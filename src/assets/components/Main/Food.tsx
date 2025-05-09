@@ -26,8 +26,7 @@ export const Food = ({id, name, urlImg, price}: Product)=>{
       <h2 className="text-intense-rose capitalize font-bold">{name}</h2>
       <h3 className="absolute bg-soft-blue-green rounded-xl px-4 border-2 border-dark-purple bottom-0 left-1/2 translate-y-1/2 -translate-x-1/2 whitespace-nowrap font-bold text-dark-purple">{price}</h3>
 
-
-      <button onClick={handleShare} className="absolute cursor-pointer top-0 right-0 translate-x-1/2 -translate-y-1/2">
+      <button aria-label="share button" onClick={handleShare} className="absolute cursor-pointer top-0 right-0 translate-x-1/2 -translate-y-1/2">
         <div className="size-7 bg-center bg-cover bg-[url(/images/icons/compartir.webp)] hover:bg-[url(/images/icons/compartir_active.webp)] lg:size-10"></div>
       </button>
 
