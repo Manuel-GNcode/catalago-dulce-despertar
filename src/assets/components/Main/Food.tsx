@@ -28,7 +28,7 @@ export const Food = ({id, name, urlImg, price}: Product)=>{
 
 
       <button onClick={handleShare} className="absolute cursor-pointer top-0 right-0 translate-x-1/2 -translate-y-1/2">
-        <div className="size-7 bg-center bg-cover bg-[url(images/icons/compartir.webp)] hover:bg-[url(images/icons/compartir_active.webp)] lg:size-10"></div>
+        <div className="size-7 bg-center bg-cover bg-[url(/images/icons/compartir.webp)] hover:bg-[url(/images/icons/compartir_active.webp)] lg:size-10"></div>
       </button>
 
       {showModal && (
